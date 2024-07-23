@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>areas</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/fontawesome/css/all.css">
+</head>
+<body>
+    <div class="contianer">
+        <div class="col-10 row forma">
+            <div class="formulario col-6">
+                <!-- inicio del formulario -->
+                <form class="row g-3 needs-validation" novalidate onsubmit="return areas()">
+                    <div class="col-md-12">
+                      <label for="lado" class="form-label">cuadrado</label>
+                      <input type="number" class="form-control" id="lado"  required placeholder="lado del cuadrado" >
+                      <div class="valid-feedback">
+                        lado del cuadrado
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="base1" class="form-label">base del rectangulo</label>
+                      <input type="number" class="form-control" id="base1"  required placeholder="base del rectangulo" >
+                      <div class="valid-feedback">
+                        base del rectangulo
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="altura1" class="form-label">altura del rectangulo</label>
+                      <input type="number" class="form-control" id="altura1"  required placeholder="altura del rectangulo" >
+                      <div class="valid-feedback">
+                        altura del rectangulo
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="base2" class="form-label">base del triangulo</label>
+                      <input type="number" class="form-control" id="base2"  required placeholder="base del triangulo" >
+                      <div class="valid-feedback">
+                        base del triangulo
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="altura2" class="form-label">altura del triangulo</label>
+                      <input type="number" class="form-control" id="altura2"  required placeholder="altura del triangulo" >
+                      <div class="valid-feedback">
+                        altura del triangulo
+                      </div>
+                    </div>
+                    
+                    
+                    <div class="col-12 center">
+                      <button class="btn btn-primary" type="submit" >Enviar   <i class="fas fa-paper-plane"></i></button>
+                    </div>
+                  </form>
+                <!-- fin del formulario -->
+            </div>
+            <div class="respuesta col-4">
+              <div id="resultado"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="js/areas.js"></script>
+    <script src="js/javas.js"></script>
+    <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+</body>
+</html>

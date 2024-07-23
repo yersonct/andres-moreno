@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saludo</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/fontawesome/css/all.css">
+</head>
+<body>
+    <div class="contianer">
+        <div class="col-10 row forma">
+            <div class="formulario col-6">
+                <!-- inicio del formulario -->
+                <form class="row g-3 needs-validation" novalidate onsubmit="return nomina()">
+                    <div class="col-md-12">
+                      <label for="nombre" class="form-label">nombre</label>
+                      <input type="text" class="form-control" id="nombre"  required placeholder="nombre" >
+                      <div class="valid-feedback1">
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="apellido" class="form-label">apellido</label>
+                      <input type="text" class="form-control" id="apellido"  required placeholder="apellido" >
+                      <div class="valid-feedback">
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="edad" class="form-label">edad</label>
+                      <input type="text" class="form-control" id="edad"  required placeholder="edad" >
+                      <div class="valid-feedback3">
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="estrato" class="form-label">estrato</label>
+                      <input type="text" class="form-control" id="estrato"  required placeholder="estrato" >
+                      <div class="valid-feedback4">
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="cedula" class="form-label">cedula</label>
+                      <input type="text" class="form-control" id="cedula"  required placeholder="cedula" >
+                      <div class="valid-feedback5">
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="dias" class="form-label">dias trabajados</label>
+                      <input type="text" class="form-control" id="dias"  required placeholder="dias" >
+                      <div class="valid-feedback6">
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="valor_por_dia" class="form-label">valor por dia</label>
+                      <input type="text" class="form-control" id="valor_por_dia"  required placeholder="valor por dia" >
+                      <div class="valid-feedback7">
+                      </div>
+                    </div>
+                    
+                    
+                    <div class="col-12 center">
+                      <button class="btn btn-primary" type="submit" >Enviar   <i class="fas fa-paper-plane"></i></button>
+                    </div>
+                  </form>
+                <!-- fin del formulario -->
+            </div>
+            <div class="respuesta col-4">
+              <div id="resultado"></div>
+            </div>
+        </div>
+    </div>
+  
+    <script src="js/nomina.js"></script>
+    <script src="js/javas.js"></script>
+    <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,503 @@
+*::after,*::before {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: radial-gradient(#cef700, #ff7300fb);
+}
+header{
+    text-align: center;
+    padding: 0px 250px 0px 250px;
+    margin-bottom:-80px ;
+}
+header{
+    cursor: pointer;
+}
+header  h3{
+    padding: 10px;
+    margin-top: 10px;
+    color: #ff0000;
+    background: #fff;
+}
+.principal{
+    margin-top: 05px;
+    width: 1600px;
+    height: 685px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.items-principal{
+    
+    width: 60%;
+    height: 71.4285px;
+    display: flex;
+    margin: 1px; 
+}
+.items-principal .hijos{
+    width: 33.33%;
+    height: 71.4285px;
+    display: flex;
+    margin: 1px;
+    
+}
+.items-principal .hijos .hijos-item{
+    border: 1px solid black;
+    height: 71.4285px;
+    z-index: 1;
+}
+.left{
+    display: flex;
+    justify-content: flex-end;
+}
+/* elementos bajos */
+.elemento{
+    margin-top: 10px;
+    width: 60%;
+    height: 20%;
+    display: flex;
+}
+.elemento .block-containe{
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2px;
+}
+.elemento .block-containe .info{
+    margin: 1px;
+    border: 1px solid black;
+    height: 100%;
+    width: 51.2px;
+}
+/* formas de la letra */
+
+.hijos-item{
+    font-size: 9px;
+    text-align: center;
+}
+.hijos-item div:nth-child(1){
+    margin-bottom:4px ;
+    display: flex;
+    justify-content: space-around;
+}
+.hijos-item div:nth-child(1){
+    display: flex;
+flex-direction: row;
+}
+/* informacion de los elementos de abajo */
+
+.info{
+    font-size: 9px;
+    text-align: center;
+}
+.info  div:nth-child(1){
+display: flex;
+justify-content: space-around;
+margin-bottom: 3px;
+}
+
+
+
+/* aplicacion de colores  */
+.verde{
+    background: linear-gradient(to bottom,#fff,#26ff00);
+    transition: all 1s ease;
+
+}
+.verde:hover{
+    background: linear-gradient(to bottom,#ffffff46,#26ff0046);
+    cursor: pointer;
+    font-size: 11px;
+    
+    transition: all 1s ease;
+}
+.verde-oscuro{
+    background: linear-gradient(to bottom,#fff,#1a6f00);
+    transition: all 1s ease;
+
+}
+.verde-oscuro:hover{
+    background: linear-gradient(to bottom,#ffffff46,#1a6f0046);
+    cursor: pointer;
+    font-size: 11px;
+    
+    transition: all 1s ease;
+}
+.azul{
+    background: linear-gradient(to bottom,#fff,#00bfff);
+    transition: all 1s ease;
+
+}
+.azul:hover{
+    background: linear-gradient(to bottom,#ffffff46,#00bfff46);
+    cursor: pointer;
+    font-size: 11px;
+    
+    transition: all 1s ease;
+}
+.rojo{
+    background: linear-gradient(to bottom,#fff,#ff0000);
+    transition: all 1s ease;
+
+}
+.rojo:hover{
+    background: linear-gradient(to bottom,#ffffff46,#ff000046);
+    cursor: pointer;
+    font-size: 11px;
+    
+    transition: all 1s ease;
+}
+.morado{
+    background: linear-gradient(to bottom,#fff,#7a288a);
+    transition: all 1s ease;
+
+}
+.morado:hover{
+    background: linear-gradient(to bottom,#ffffff46,#7a288a46);
+    cursor: pointer;
+    font-size: 11px;
+    
+    transition: all 1s ease;
+}
+.letra-roja{
+    color: #ff0000;
+
+}
+.letra-blanca{
+    color: #fff;
+}
+.rosado{
+    background: linear-gradient(to bottom,#fff,#ff69b4);    
+    transition: all 1s ease;
+
+}
+.rosado:hover{
+    background: linear-gradient(to bottom,#ffffff46,#ff69b446);
+    cursor: pointer;
+    font-size: 11px;
+    
+    transition: all 1s ease;
+}
+.blanco{
+    background: linear-gradient(to bottom,#fff,#fff);
+    transition: all 1s ease;
+}
+.blanco:hover{
+    background: linear-gradient(to bottom,#ffffff46,#ffffff46);
+    cursor: pointer;
+    font-size: 11px;
+    
+    transition: all 1s ease;
+}
+.letra-negra{
+    color: #000;
+}   
+.rosado-oscuro{
+    background: linear-gradient(to bottom,#fff,#c2185b);
+    transition: all 1s ease;
+}
+.rosado-oscuro:hover{
+    background: linear-gradient(to bottom,#ffffff46,#c2185c46);
+    cursor: pointer;
+    font-size: 11px;
+    transition: all 1s ease;
+    
+}
+/* forma de temperatura */
+.forma{
+    padding: 10px;
+    height: 160px !important;
+
+}
+.forma .container-informacion{
+    border: 1px solid black;
+    width: 100%;
+    background: #fff;
+}
+.cajas-infor-arriba{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.cuadritos{
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    
+}
+
+.cajas{
+    margin: 5px 5px 0px 5px;
+    
+    display: flex;
+}
+.cajas div:nth-child(1){
+    margin-right: 4px;
+}
+.cajas div:nth-child(2) p{
+    margin-top: -2px;
+}
+hr{
+    margin: -10px 5px 0px 5px;
+}
+/* informacion del medio del contenedor */
+.cajas-infor-medio{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+
+.cajas-2:nth-child(1){
+    margin: 5px 5px 0px 5px;
+    display: flex;
+}
+.cajas-2:nth-child(2){
+    margin: -12px 5px 0px 5px;
+    display: flex;
+}
+.cajas-2 div:nth-child(1){
+    margin-right: 4px;
+}
+.cajas-2 div:nth-child(2) p{
+    margin-top: -2px;
+}
+/* informacion de contenidor del medio de arriba... pero la parte inferior */
+.container-infor-bajo{
+    display: flex;
+    margin-top: -10px;
+}
+.cajas-infor-baja-derecha{
+    text-align: center;
+    float: right;
+    font-size: 12px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    z-index: 1;
+    background: #fff;
+}
+
+.cajas-infor-bajo-izquierda{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+.cajas-3{
+    display: flex;
+    margin-left: 10px;
+}
+.cajas-3 div:nth-child(1){
+    margin-right: 4px;
+}
+.cajas-3 div:nth-child(2) p{
+    margin-top: -2px;
+}
+.cajas-4{
+    margin: 5px 5px 0px 10px;
+    display: flex;
+    justify-content: start;
+}
+.cajas-4 div:nth-child(1){
+    margin-right: 20px;
+}
+.cajas-4 div:nth-child(2) b{
+    margin-top: -10px;
+}
+.cajas-infor-bajo-izquierda div:nth-child(2){
+    margin-top: 2px;
+}.cajas-infor-bajo-izquierda div:nth-child(2) p{
+    margin: -4px 0px 0px 6px;
+}
+
+legend{
+    margin-bottom: -2px;
+    margin-left: 35px;
+    text-align: center;
+    width: 750px;
+    border: 1px solid #000;
+    border-width: 1px 1px 0px 1px;
+    z-index: -1;
+}
+
+.rotate{
+    font-weight: bold;
+    margin-right:  -8px;
+    transform: rotate(270deg) !important;
+    -webkit-transform: rotate(270deg) !important;
+    -moz-transform: rotate(270deg) !important;
+    -ms-transform: rotate(270deg) !important;
+    -o-transform: rotate(270deg) !important;
+    text-align: center;
+    line-height: 70px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.texto-izquierdo-bajo{
+    display: flex;
+    margin-top: 50px;
+    padding-left: 10px;border-left: 2px solid #000;
+    text-shadow: 1px -1px 2px #fff, 1px -1px 2px #fff, 1px -1px 2px #fff;
+}
+
+.container-elemento{
+
+    position: relative;
+    top: 130px;
+    right: 120px;
+    display: flex;
+    width: 600px;
+    text-align: center;
+    z-index: -1;
+}   
+.container-elemento  div:nth-child(2) div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.container-elemento  .items:nth-child(2){
+border: 1px solid black;
+font-size: 15px;
+background: #26ff00;
+padding: 2px;
+}
+
+.container-elemento  .items:nth-child(1), .items:nth-child(3){
+font-size: 10px;
+}
+.container-elemento  .items:nth-child(1) div:nth-child(2){
+    position: relative;
+    top: 2px;
+    left: 40px;
+
+}
+    .container-elemento  .items:nth-child(1) div:nth-child(1){
+        position: relative;
+        top: 3px;
+    
+}
+.container-elemento   .items:nth-child(3) div:nth-child(2){
+    position: relative;
+    right: 10px;
+    top: 58px;
+}
+.container-elemento   .items:nth-child(3) div:nth-child(1){
+        position: relative;
+        top: 3px;
+}
+/* prueba */
+/* .container{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    margin: 20px 0px 0px 80px ;
+}
+.fila{
+    display:flex;
+    margin: 1px;
+}
+.fila .col-1{
+    border: 1px solid #000; 
+    text-align: center;
+
+}
+.col-8{
+  
+    margin: 0px 0px  0px 140px ;
+}
+.col-6{
+    border: 1px solid #000; 
+    text-align: center;
+    width: 120px;
+    height: 110px;
+    margin: 40px 50px 0px  40px;
+}
+.col-1{
+    margin: 1px;
+} 
+.col-1 div:nth-child(1){
+    margin-left: 74px;
+
+}
+.col-6 div:nth-child(1){
+    text-align: center;
+    margin-left: 94px;
+}
+
+.container-2{
+    width: 420px;
+        height: 520px;
+    display: flex;
+    margin: 5px;
+}
+.row-1{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    text-align: center;
+
+}
+.borde{
+    border: 1px solid #000;
+
+}
+.borde  div:nth-child(1){
+    margin-left: 80px;
+}
+
+
+
+
+.container-3{
+    display: flex  ;
+}
+.container-4{
+    display:flex;
+    width: 610px;
+    height: 400px;
+}
+
+.container-5{
+    display: flex ;
+    border: 1px solid;
+} */
+/* .container{
+    display: flex ;
+    align-items: flex-end;
+}
+.row-1{
+    text-align: center;
+
+}
+.border{
+    border: 1px solid #000;
+    margin: 3px;
+    background: #00e1ff;
+}
+.border div:nth-child(1){
+    margin-left: 65px;
+}
+
+.container_2{
+    display:flex;
+} */
+.container{
+    display:flex;
+    width: 400px;
+    height: 500px;
+}
+.borde{
+    text-align: center;
+    border: 1px solid #000;
+    background: #00ff1a;
+}
+.borde div:nth-child(1){
+    margin-left:80px;
+}

@@ -1,0 +1,38 @@
+/* proyecto: tablero loco */
+/* autor: Yerson Rubiano */
+/* fecha:20/05/24 */
+
+*::after, *::before {
+    margin: 0px;
+    padding: 0px;
+}
+
+#principal{
+    height: 600px;
+    width: 600px;
+    border: 1px solid #000;    
+    padding:10px;
+}
+.items-padre{
+    height: 110px;
+    padding: 4px 5px 4px 2px;
+    width: 100%;
+    /* border: 1px solid #000;  */
+    margin: 5px 0px 5px 0px;
+    display: flex;
+    flex-direction: row;   
+    gap: 2px;
+}
+.items-hijos{
+    border: 1px solid #000;
+    width: 40px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.items-hijos:hover{
+    background-color: #000;
+    color: #fff;
+}
+

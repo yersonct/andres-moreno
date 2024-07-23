@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inversion de tres personas</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/fontawesome/css/all.css">
+</head>
+<body>
+    <div class="contianer">
+        <div class="col-10 row forma">
+            <div class="formulario col-6">
+                <!-- inicio del formulario -->
+                <form class="row g-3 needs-validation" novalidate onsubmit="return inversion()">
+                    <div class="col-md-12">
+                      <label for="primer_dinero" class="form-label">primer dinero</label>
+                      <input type="number" class="form-control" id="primer_dinero"  required placeholder="primer dinero" >
+                      <div class="valid-feedback">
+                        primer dinero
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="segundo_dinero" class="form-label">segundo dinero</label>
+                      <input type="number" class="form-control" id="segundo_dinero"  required placeholder="segundo dinero" >
+                      <div class="valid-feedback">
+                        segundo dinero
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="tercer_dinero" class="form-label">tercer dinero</label>
+                      <input type="number" class="form-control" id="tercer_dinero"  required placeholder="tercer dinero" >
+                      <div class="valid-feedback">
+                        tercer dinero
+                      </div>
+                    </div>
+                    
+                    
+                    <div class="col-12 center">
+                      <button class="btn btn-primary" type="submit" >Enviar   <i class="fas fa-paper-plane"></i></button>
+                    </div>
+                  </form>
+                <!-- fin del formulario -->
+            </div>
+            <div class="respuesta col-4">
+              <div id="suma"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="js/inversion.js"></script>
+    <script src="js/javas.js"></script>
+    <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+</body>
+</html>

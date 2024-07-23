@@ -1,0 +1,49 @@
+/*
+saludo: hola mundo
+autor: yerson rubiano 
+fecha:17/06/24 
+*/
+body{
+    background: #000;
+}
+
+
+
+
+.forma{
+    width: 1250px;
+    /* border:  1px solid black; */
+    margin: auto;
+    margin-top: 300px;
+}
+
+
+.forma input[type="text"]{ 
+    background: linear-gradient(to top, transparent, #787777);
+    color: white;
+    border-top-right-radius: 60px;
+    border: none;
+    outline: none !important;
+    border-bottom:3px solid red;    
+
+
+}
+
+.forma .center{
+    margin:10px 250px 0px 250px; 
+}
+.formulario{
+    border:  1px solid rgb(255, 0, 0);
+}
+.respuesta{
+    border:  1px solid rgb(255, 0, 0);
+    text-align: center;
+    line-height: 150px;
+
+}
+.formulario ,.respuesta{
+    margin-left: 10px;
+    border-radius: 6px;
+    padding: 15px;
+    color: blue;
+}

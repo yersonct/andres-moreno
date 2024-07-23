@@ -1,0 +1,1 @@
+const info =()=>{alert('buenas noches😎');};

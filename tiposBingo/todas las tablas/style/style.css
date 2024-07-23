@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background:  radial-gradient(circle,rgb(0, 176, 165),rgb(42, 35, 58));
+
+}
+.container{
+    margin: auto;
+    position: relative;
+    padding: 50px 0px;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    color: rgb(10, 173, 201);
+    text-shadow: 0px 0px 10px rgb(15, 30, 199);
+
+
+}
+.col-12{
+    margin: auto;
+}
+th{
+    text-align: center;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px 10px rgb(8, 208, 223);
+    margin: 60px;
+}
+td{
+    margin: 20px;
+    border-radius: 100%;
+}
+
+
+/*
+.btn-outline-info{
+    position: absolute;
+    right: 29.5vw;
+    bottom: -380px;
+    width: 140px;
+    margin: auto;
+    transition: all 2s ease;
+} */
+
+
+.accordion-item1,.accordion-item2,.accordion-item3,.accordion-item4,.accordion-item5,.accordion-item6,.accordion-item7{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    margin: auto;
+}
+[data-bs-target="#flush-collapse1"],[data-bs-target="#flush-collapse2"],[data-bs-target="#flush-collapse3"],[data-bs-target="#flush-collapse4"],[data-bs-target="#flush-collapse5"],[data-bs-target="#flush-collapse6"],[data-bs-target="#flush-collapse7"]{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    margin: auto;
+    border: 1px solid black;
+    
+}
+[id="flush-collapse1"],[id="flush-collapse2"],[id="flush-collapse3"],[id="flush-collapse4"],[id="flush-collapse5"],[id="flush-collapse6"],[id="flush-collapse7"]{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    margin: auto;
+}
+.accordion-body{
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    margin: auto;
+}
+table{
+    width: 60%;
+    margin: auto;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contador hasta 5 con white</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/fontawesome/css/all.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+</head>
+<body>
+    <div class="contianer">
+        <div class="col-10 row forma">
+            <div class="formulario col-6">
+                <!-- inicio del formulario -->
+                <form class="row g-3 needs-validation" novalidate onsubmit="return multiplicarf()">
+                    <div class="col-md-12">
+                      <label for="numero" class="form-label">numero:</label>
+                      <input type="number" class="form-control" id="numero"  required name="numero" placeholder="numero">
+                      <div class="valid-feedback">
+                        numero
+                      </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="col-12 center">
+                      <button class="btn btn-primary" type="submit" >Enviar   <i class="fa-solid fa-cake-candles"></i></button>
+                    </div>
+                  </form>
+                <!-- fin del formulario -->
+            </div>
+            <div class="respuesta col-4">
+              <div id="resultado"></div>  
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="js/multiplicar.js"></script>
+    <script src="js/javas.js"></script>
+    <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+</body>
+</html>
