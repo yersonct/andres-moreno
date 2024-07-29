@@ -181,24 +181,6 @@ document.addEventListener('DOMContentLoaded',function(){
             elemento.style.color = "white"
             elemento.style.transition = "all 2s ease"
         })
-        // let cambios2 = document.querySelectorAll('.activeColor2')
-        // cambios2.forEach((elemento)=>{
-        //     elemento.style.background = "red"
-        //     elemento.style.color = "white"
-        //     elemento.style.transition = "all 2s ease"
-        // })
-        // let cambios3 = document.querySelectorAll('.activeColor3')
-        // cambios3.forEach((elemento)=>{
-        //     elemento.style.background = "blue"
-        //     elemento.style.color = "white"
-        //     elemento.style.transition = "all 2s ease"
-        // })
-        // let cambios4 = document.querySelectorAll('.activeColor4')
-        // cambios4.forEach((elemento)=>{
-        //     elemento.style.background = "conic-gradient(blue 50%,red 50%)"
-        //     elemento.style.color = "white"
-        //     elemento.style.transition = "all 2s ease"
-        // })
     })
 })
 
